@@ -1,0 +1,477 @@
+,scenario-text,scenario-id,procedure,adult-rrl,peds-rrl,appropriateness
+0,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+
+
+
+
+
+
+Fluoroscopy biphasic esophagram
+
+
+
+","
+1-10 mSv☢☢☢
+","
+
+","
+
+                                                                Usually appropriate
+                                                            
+"
+1,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+Fluoroscopy upper GI series
+","
+1-10 mSv☢☢☢
+","
+0.3-3 mSv [ped]☢☢☢
+","
+
+                                                                Usually appropriate
+                                                            
+"
+2,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+Fluoroscopy single contrast esophagram
+","
+1-10 mSv☢☢☢
+","
+
+","
+
+                                                                May be appropriate
+                                                            
+"
+3,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+CT abdomen and pelvis with IV contrast
+","
+1-10 mSv☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                May be appropriate
+                                                            
+"
+4,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+CT abdomen and pelvis without IV contrast
+","
+1-10 mSv☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                May be appropriate
+                                                            
+"
+5,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+CT abdomen with IV contrast
+","
+1-10 mSv☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                May be appropriate
+                                                                    
+
+                                                                        (Disagreement)
+                                                                    
+
+"
+6,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+MRI abdomen without and with IV contrast
+","
+0 mSvO
+","
+0 mSv [ped]O
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+7,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+MRI abdomen without and with IV contrast with MRCP
+","
+0 mSvO
+","
+0 mSv [ped]O
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+8,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+MRI abdomen without IV contrast
+","
+0 mSvO
+","
+0 mSv [ped]O
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+9,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+MRI abdomen without IV contrast with MRCP
+","
+0 mSvO
+","
+0 mSv [ped]O
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+10,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+CT abdomen without IV contrast
+","
+1-10 mSv☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+11,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+CT abdomen and pelvis without and with IV contrast
+","
+10-30 mSv☢☢☢☢
+","
+10-30 mSv [ped]☢☢☢☢☢
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+12,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+CT abdomen with IV contrast multiphase
+","
+10-30 mSv☢☢☢☢
+","
+
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+13,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+CT abdomen without and with IV contrast
+","
+10-30 mSv☢☢☢☢
+","
+10-30 mSv [ped]☢☢☢☢☢
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+14,"
+Epigastric pain, acid reflux suspected, initial imaging
+","
+3194197
+","
+FDG-PET/CT skull base to mid-thigh
+","
+10-30 mSv☢☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+15,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+
+
+
+
+
+
+Fluoroscopy biphasic esophagram
+
+
+
+","
+1-10 mSv☢☢☢
+","
+
+","
+
+                                                                Usually appropriate
+                                                            
+"
+16,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+Fluoroscopy upper GI series
+","
+1-10 mSv☢☢☢
+","
+0.3-3 mSv [ped]☢☢☢
+","
+
+                                                                Usually appropriate
+                                                            
+"
+17,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+Fluoroscopy single contrast esophagram
+","
+1-10 mSv☢☢☢
+","
+
+","
+
+                                                                May be appropriate
+                                                            
+"
+18,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+CT abdomen and pelvis with IV contrast
+","
+1-10 mSv☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                May be appropriate
+                                                            
+"
+19,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+CT abdomen and pelvis without IV contrast
+","
+1-10 mSv☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                May be appropriate
+                                                            
+"
+20,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+CT abdomen with IV contrast
+","
+1-10 mSv☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                May be appropriate
+                                                                    
+
+                                                                        (Disagreement)
+                                                                    
+
+"
+21,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+MRI abdomen without and with IV contrast
+","
+0 mSvO
+","
+0 mSv [ped]O
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+22,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+MRI abdomen without and with IV contrast with MRCP
+","
+0 mSvO
+","
+0 mSv [ped]O
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+23,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+MRI abdomen without IV contrast
+","
+0 mSvO
+","
+0 mSv [ped]O
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+24,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+MRI abdomen without IV contrast with MRCP
+","
+0 mSvO
+","
+0 mSv [ped]O
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+25,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+CT abdomen without IV contrast
+","
+1-10 mSv☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+26,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+CT abdomen and pelvis without and with IV contrast
+","
+10-30 mSv☢☢☢☢
+","
+10-30 mSv [ped]☢☢☢☢☢
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+27,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+CT abdomen with IV contrast multiphase
+","
+10-30 mSv☢☢☢☢
+","
+
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+28,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+CT abdomen without and with IV contrast
+","
+10-30 mSv☢☢☢☢
+","
+10-30 mSv [ped]☢☢☢☢☢
+","
+
+                                                                Usually not appropriate
+                                                            
+"
+29,"
+Epigastric pain, duodenal ulcer suspected, initial imaging
+","
+3194201
+","
+FDG-PET/CT skull base to mid-thigh
+","
+10-30 mSv☢☢☢☢
+","
+3-10 mSv [ped]☢☢☢☢
+","
+
+                                                                Usually not appropriate
+                                                            
+"
