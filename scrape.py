@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from tabulate import tabulate
+import time
+from datetime import datetime
+
 
 def get_criteria_for_scenario(url):
     # Send a GET request to the URL
@@ -23,20 +26,15 @@ def get_criteria_for_scenario(url):
                 row_data.append(cell.text)
             data.append(row_data)
 
-        # Create a pandas DataFrame from the extracted data
         df = pd.DataFrame(data)
-        # df = df.apply(lambda x: " ".join(x.str.translate(str.maketrans('', '', "\t\n\r\x0b\x0c"))).split() if x.dtype == "object" else x)
-        # df = df.apply(lambda x: " ".join(x.split()) if x.dtype == "object" else x)
-
-        # # Print the DataFrame
-        # print(tabulate(df_trimmed))
         
         new_rows = []
         for index, row in df.iterrows():
             if index % 2 == 1:  # Check if index is odd
-                for i in row:
+                for idx, i in enumerate(row):
                     if type(i) == str:
                         i = " ".join(i.split())
+                        row[idx] = i
                 if index == 1:
                     txt = row[0]
                     id = row[1]
@@ -48,24 +46,40 @@ def get_criteria_for_scenario(url):
                     row[1] = id
                 new_rows.append(row.values)
 
-        return pd.DataFrame(new_rows)
+        return new_rows
 
     else:
         print("Failed to retrieve webpage:", response.status_code)
         return -1
-    
+
+# main
+ 
+
+scenarios = pd.read_csv("data/acr_ac_scenarios.csv")
+scenario_list = scenarios[scenarios['panel'] == 'Gastrointestinal']['scenario-url'].tolist()
+
 ac = pd.DataFrame(columns=["scenario-text", "scenario-id", "procedure", "adult-rrl", "peds-rrl", "appropriateness", "empty-1", "empty-2"], dtype="object")
 
-scenario_list = [
-                    "https://gravitas.acr.org/ACPortal/GetDataForOneScenario?senarioId=5564",
-                    "https://gravitas.acr.org/ACPortal/GetDataForOneScenario?senarioId=5568"
-]
+total_urls = len(scenario_list)
+# Get both url and panel information
+scenario_data = scenarios[scenarios['panel'] == 'Gastrointestinal'][['url', 'panel']].values.tolist()
 
-for url in scenario_list:
+# Update DataFrame columns to include panel
+ac = pd.DataFrame(columns=["panel", "scenario-text", "scenario-id", "procedure", "adult-rrl", "peds-rrl", "appropriateness", "empty-1", "empty-2"], dtype="object")
+
+for idx, (url, panel) in enumerate(scenario_data, 1):
+    print(f"Processing {idx}/{total_urls}: {url}", end='\r', flush=True)
     new_ac = get_criteria_for_scenario(url)
-    new_ac.columns = ac.columns
-    ac = pd.concat([ac, new_ac], ignore_index=True)
-
+    if new_ac == -1:
+        print(f"\nFailed to retrieve url {url}")
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open('error_log.txt', 'a') as error_file:
+            error_file.write(f"[{timestamp}] Failed to retrieve: {url}\n")
+    else:
+        # Add panel column to each row
+        new_ac_with_panel = [[panel] + list(row) for row in new_ac]
+        ac = pd.concat([ac, pd.DataFrame(new_ac_with_panel, columns=ac.columns)], ignore_index=True)
+    time.sleep(10)  # Pause for 10 seconds between requests    
 ac = ac.drop(['empty-1', 'empty-2'], axis=1)
 ac.to_csv("output.csv")
 
