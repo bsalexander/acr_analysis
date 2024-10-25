@@ -1,0 +1,163 @@
+,panel,scenario-text,scenario-id,procedure,adult-rrl,peds-rrl,appropriateness
+0,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+1,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,CT abdomen and pelvis with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+2,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,CTA abdomen and pelvis with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+3,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,CT chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate (Disagreement)
+4,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,CTA chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate (Disagreement)
+5,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,CT abdomen and pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,May be appropriate
+6,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+7,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+8,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,MRI chest without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+9,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,MRI chest without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+10,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,CT abdomen and pelvis without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+11,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,CT chest without and with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+12,Polytrauma,"Abdomen and pelvis trauma, penetrating, ballistic, normotensive, initial imaging",3197451,CT chest without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+13,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+14,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,CT abdomen and pelvis with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+15,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,CT abdomen and pelvis without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+16,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,CT chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+17,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,CTA chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate (Disagreement)
+18,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,CTA abdomen and pelvis with IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+19,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+20,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+21,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,MRI chest without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+22,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,MRI chest without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+23,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,CT chest without and with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+24,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,CT chest without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+25,Polytrauma,"Abdomen and pelvis trauma, penetrating, nonballistic, normotensive, initial imaging",3197457,CT abdomen and pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+26,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+27,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,CT chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+28,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,CTA chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+29,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,CT abdomen and pelvis with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate (Disagreement)
+30,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,CT chest without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+31,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,CTA abdomen and pelvis with IV contrast,10-30 mSv☢☢☢☢,,May be appropriate (Disagreement)
+32,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+33,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+34,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,MRI chest without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+35,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,MRI chest without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+36,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,CT abdomen and pelvis without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+37,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,CT chest without and with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+38,Polytrauma,"Chest trauma, penetrating, ballistic, normotensive, initial imaging",3197449,CT abdomen and pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+39,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+40,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,CT chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+41,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,CTA chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+42,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,CT abdomen and pelvis with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate (Disagreement)
+43,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,CT chest without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+44,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,CTA abdomen and pelvis with IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+45,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+46,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+47,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,MRI chest without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+48,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,MRI chest without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+49,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,CT abdomen and pelvis without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+50,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,CT chest without and with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+51,Polytrauma,"Chest trauma, penetrating, nonballistic, normotensive, initial imaging",3197455,CT abdomen and pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+52,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,US FAST scan chest abdomen and pelvis,0 mSvO,0 mSv [ped]O,Usually appropriate
+53,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+54,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,CT abdomen and pelvis with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+55,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+56,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,CT abdomen and pelvis without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+57,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate (Disagreement)
+58,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,CTA abdomen and pelvis with IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+59,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,US abdomen,0 mSvO,0 mSv [ped]O,Usually not appropriate
+60,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+61,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+62,Polytrauma,"Polytrauma, blunt, hemodynamically stable, bowel trauma suspected, initial imaging",3164894,CT abdomen and pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+63,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+64,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,CT chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+65,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,CTA chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+66,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+67,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,US FAST scan chest abdomen and pelvis,0 mSvO,0 mSv [ped]O,May be appropriate (Disagreement)
+68,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,CT chest without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+69,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+70,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,US chest,0 mSvO,0 mSv [ped]O,Usually not appropriate
+71,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,MRI chest without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+72,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,MRI chest without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+73,Polytrauma,"Polytrauma, blunt, hemodynamically stable, chest trauma suspected, initial imaging",3164896,CT chest without and with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+74,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+75,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,CT maxillofacial without IV contrast,0.1-1mSv☢☢,,Usually appropriate
+76,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,CT head without IV contrast,1-10 mSv☢☢☢,0.3-3 mSv [ped]☢☢☢,Usually appropriate
+77,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,May be appropriate (Disagreement)
+78,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+79,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,CT maxillofacial with IV contrast,0.1-1mSv☢☢,,Usually not appropriate
+80,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,CT head with IV contrast,1-10 mSv☢☢☢,0.3-3 mSv [ped]☢☢☢,Usually not appropriate
+81,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,CT head without and with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+82,Polytrauma,"Polytrauma, blunt, hemodynamically stable, facial injury suspected, initial imaging",3164892,CT maxillofacial without and with IV contrast,1-10 mSv☢☢☢,,Usually not appropriate
+83,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,US FAST scan chest abdomen and pelvis,0 mSvO,0 mSv [ped]O,Usually appropriate
+84,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,Radiography lower extremity,0.1-1mSv☢☢,,Usually appropriate
+85,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+86,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+87,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,CT lower extremity with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+88,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,CT lower extremity without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+89,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,CTA lower extremity with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+90,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate (Disagreement)
+91,Polytrauma,"Polytrauma, blunt, hemodynamically stable, lower extremity trauma suspected, initial imaging",3165327,CT lower extremity without and with IV contrast,1-10 mSv☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+92,Polytrauma,"Polytrauma, blunt, hemodynamically stable, NOS, initial imaging",3164891,US FAST scan chest abdomen and pelvis,0 mSvO,0 mSv [ped]O,Usually appropriate
+93,Polytrauma,"Polytrauma, blunt, hemodynamically stable, NOS, initial imaging",3164891,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+94,Polytrauma,"Polytrauma, blunt, hemodynamically stable, NOS, initial imaging",3164891,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+95,Polytrauma,"Polytrauma, blunt, hemodynamically stable, NOS, initial imaging",3164891,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+96,Polytrauma,"Polytrauma, blunt, hemodynamically stable, NOS, initial imaging",3164891,Fluoroscopy retrograde urethrography,1-10 mSv☢☢☢,0.3-3 mSv [ped]☢☢☢,Usually not appropriate
+97,Polytrauma,"Polytrauma, blunt, hemodynamically stable, NOS, initial imaging",3164891,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+98,Polytrauma,"Polytrauma, blunt, hemodynamically stable, NOS, initial imaging",3164891,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+99,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,US FAST scan chest abdomen and pelvis,0 mSvO,0 mSv [ped]O,Usually appropriate
+100,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,US pelvis,0 mSvO,0 mSv [ped]O,Usually appropriate
+101,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+102,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,CT abdomen and pelvis with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+103,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+104,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,CT abdomen and pelvis without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+105,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,CTA chest with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+106,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+107,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,CTA abdomen and pelvis with IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+108,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+109,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+110,Polytrauma,"Polytrauma, blunt, hemodynamically stable, pregnant, initial imaging",3164897,CT abdomen and pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+111,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,US FAST scan chest abdomen and pelvis,0 mSvO,0 mSv [ped]O,Usually appropriate
+112,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,Radiography upper extremity,<0.1 mSv☢,,Usually appropriate
+113,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+114,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+115,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,CT upper extremity with IV contrast,1-10 mSv☢☢☢,,May be appropriate
+116,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,CT upper extremity without IV contrast,1-10 mSv☢☢☢,,May be appropriate
+117,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,CTA upper extremity with IV contrast,1-10 mSv☢☢☢,,May be appropriate
+118,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate (Disagreement)
+119,Polytrauma,"Polytrauma, blunt, hemodynamically stable, upper extremity trauma suspected, initial imaging",3165328,CT upper extremity without and with IV contrast,10-30 mSv☢☢☢☢,,Usually not appropriate
+120,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,US FAST scan chest abdomen and pelvis,0 mSvO,0 mSv [ped]O,Usually appropriate
+121,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,Fluoroscopy retrograde urethrography,1-10 mSv☢☢☢,0.3-3 mSv [ped]☢☢☢,Usually appropriate
+122,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+123,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,CT abdomen and pelvis with IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+124,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+125,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,CTA abdomen and pelvis with IV contrast,10-30 mSv☢☢☢☢,,Usually appropriate
+126,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,CT abdomen and pelvis without IV contrast,1-10 mSv☢☢☢,3-10 mSv [ped]☢☢☢☢,May be appropriate
+127,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+128,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,CTU without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,May be appropriate (Disagreement)
+129,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,US abdomen and pelvis,0 mSvO,0 mSv [ped]O,Usually not appropriate
+130,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,Radiography intravenous urography,1-10 mSv☢☢☢,0.3-3 mSv [ped]☢☢☢,Usually not appropriate
+131,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+132,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+133,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,MRU without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+134,Polytrauma,"Polytrauma, blunt, hemodynamically stable, urinary system trauma suspected, initial imaging",3164895,CT abdomen and pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+135,Polytrauma,"Polytrauma, blunt, hemodynamically unstable, initial imaging",3164890,US FAST scan chest abdomen and pelvis,0 mSvO,0 mSv [ped]O,Usually appropriate
+136,Polytrauma,"Polytrauma, blunt, hemodynamically unstable, initial imaging",3164890,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+137,Polytrauma,"Polytrauma, blunt, hemodynamically unstable, initial imaging",3164890,CT whole body with IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+138,Polytrauma,"Polytrauma, blunt, hemodynamically unstable, initial imaging",3164890,CT whole body without IV contrast,10-30 mSv☢☢☢☢,,May be appropriate
+139,Polytrauma,"Polytrauma, blunt, hemodynamically unstable, initial imaging",3164890,MRI abdomen and pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+140,Polytrauma,"Polytrauma, blunt, hemodynamically unstable, initial imaging",3164890,MRI abdomen and pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+141,Polytrauma,"Torso trauma, penetrating, ballistic, unknown trajectory, normotensive, initial imaging",3197447,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+142,Polytrauma,"Torso trauma, penetrating, ballistic, unknown trajectory, normotensive, initial imaging",3197447,CT chest abdomen pelvis with IV contrast,10-30 mSv☢☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+143,Polytrauma,"Torso trauma, penetrating, ballistic, unknown trajectory, normotensive, initial imaging",3197447,CTA chest abdomen pelvis with IV contrast,30-100 mSv☢☢☢☢☢,,Usually appropriate
+144,Polytrauma,"Torso trauma, penetrating, ballistic, unknown trajectory, normotensive, initial imaging",3197447,CT chest abdomen pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,May be appropriate
+145,Polytrauma,"Torso trauma, penetrating, ballistic, unknown trajectory, normotensive, initial imaging",3197447,MRI chest abdomen pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+146,Polytrauma,"Torso trauma, penetrating, ballistic, unknown trajectory, normotensive, initial imaging",3197447,MRI chest abdomen pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+147,Polytrauma,"Torso trauma, penetrating, ballistic, unknown trajectory, normotensive, initial imaging",3197447,CT chest abdomen pelvis without IV contrast,10-30 mSv☢☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+148,Polytrauma,"Torso trauma, penetrating, hypotensive, initial imaging",3197445,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+149,Polytrauma,"Torso trauma, penetrating, hypotensive, initial imaging",3197445,CT chest abdomen pelvis with IV contrast,10-30 mSv☢☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+150,Polytrauma,"Torso trauma, penetrating, hypotensive, initial imaging",3197445,CTA chest abdomen pelvis with IV contrast,30-100 mSv☢☢☢☢☢,,Usually appropriate
+151,Polytrauma,"Torso trauma, penetrating, hypotensive, initial imaging",3197445,MRI chest abdomen pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+152,Polytrauma,"Torso trauma, penetrating, hypotensive, initial imaging",3197445,MRI chest abdomen pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+153,Polytrauma,"Torso trauma, penetrating, hypotensive, initial imaging",3197445,CT chest abdomen pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+154,Polytrauma,"Torso trauma, penetrating, hypotensive, initial imaging",3197445,CT chest abdomen pelvis without IV contrast,10-30 mSv☢☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate
+155,Polytrauma,"Torso trauma, penetrating, nonballistic, unknown trajectory, normotensive, initial imaging",3197453,Radiography trauma series,1-10 mSv☢☢☢,,Usually appropriate
+156,Polytrauma,"Torso trauma, penetrating, nonballistic, unknown trajectory, normotensive, initial imaging",3197453,CT chest abdomen pelvis with IV contrast,10-30 mSv☢☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually appropriate
+157,Polytrauma,"Torso trauma, penetrating, nonballistic, unknown trajectory, normotensive, initial imaging",3197453,CTA chest abdomen pelvis with IV contrast,30-100 mSv☢☢☢☢☢,,Usually appropriate
+158,Polytrauma,"Torso trauma, penetrating, nonballistic, unknown trajectory, normotensive, initial imaging",3197453,MRI chest abdomen pelvis without and with IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+159,Polytrauma,"Torso trauma, penetrating, nonballistic, unknown trajectory, normotensive, initial imaging",3197453,MRI chest abdomen pelvis without IV contrast,0 mSvO,0 mSv [ped]O,Usually not appropriate
+160,Polytrauma,"Torso trauma, penetrating, nonballistic, unknown trajectory, normotensive, initial imaging",3197453,CT chest abdomen pelvis without and with IV contrast,10-30 mSv☢☢☢☢,10-30 mSv [ped]☢☢☢☢☢,Usually not appropriate
+161,Polytrauma,"Torso trauma, penetrating, nonballistic, unknown trajectory, normotensive, initial imaging",3197453,CT chest abdomen pelvis without IV contrast,10-30 mSv☢☢☢☢,3-10 mSv [ped]☢☢☢☢,Usually not appropriate

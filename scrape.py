@@ -60,13 +60,13 @@ scenario_list = scenarios[scenarios['panel'] == 'Gastrointestinal']['scenario-ur
 
 ac = pd.DataFrame(columns=["scenario-text", "scenario-id", "procedure", "adult-rrl", "peds-rrl", "appropriateness", "empty-1", "empty-2"], dtype="object")
 
-total_urls = len(scenario_list)
 # Get both url and panel information
-scenario_data = scenarios[scenarios['panel'] == 'Gastrointestinal'][['url', 'panel']].values.tolist()
+panel_to_load = 'Breast'
+scenario_data = scenarios[scenarios['panel'] == panel_to_load][['scenario-url', 'panel']].values.tolist()
 
 # Update DataFrame columns to include panel
 ac = pd.DataFrame(columns=["panel", "scenario-text", "scenario-id", "procedure", "adult-rrl", "peds-rrl", "appropriateness", "empty-1", "empty-2"], dtype="object")
-
+total_urls = len(scenario_data)
 for idx, (url, panel) in enumerate(scenario_data, 1):
     print(f"Processing {idx}/{total_urls}: {url}", end='\r', flush=True)
     new_ac = get_criteria_for_scenario(url)
@@ -81,5 +81,5 @@ for idx, (url, panel) in enumerate(scenario_data, 1):
         ac = pd.concat([ac, pd.DataFrame(new_ac_with_panel, columns=ac.columns)], ignore_index=True)
     time.sleep(10)  # Pause for 10 seconds between requests    
 ac = ac.drop(['empty-1', 'empty-2'], axis=1)
-ac.to_csv("output.csv")
+ac.to_csv(panel_to_load+".csv")
 
