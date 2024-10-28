@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-from tabulate import tabulate
 import time
 from datetime import datetime
 
@@ -61,7 +60,7 @@ scenario_list = scenarios[scenarios['panel'] == 'Gastrointestinal']['scenario-ur
 ac = pd.DataFrame(columns=["scenario-text", "scenario-id", "procedure", "adult-rrl", "peds-rrl", "appropriateness", "empty-1", "empty-2"], dtype="object")
 
 # Get both url and panel information
-panel_to_load = 'Thoracic'
+panel_to_load = 'Vascular'
 scenario_data = scenarios[scenarios['panel'] == panel_to_load][['scenario-url', 'panel']].values.tolist()
 
 # Update DataFrame columns to include panel
