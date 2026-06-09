@@ -5,7 +5,7 @@ import os
 
 # Get all CSV files in the data directory
 path = "data"
-all_files = [f for f in glob.glob(os.path.join(path, "*.csv")) if not f.endswith("output.csv")]
+all_files = [f for f in glob.glob(os.path.join(path, "*.csv")) if not f.endswith("combined.csv")]
 
 # Create empty list to store dataframes
 df_list = []
