@@ -1,20 +1,20 @@
-scenario-id
-3102641
-3164890
-3164891
-3196677
-3196678
-3196679
-3196680
-3196682
-3196683
-3196684
-3196685
-3196686
-3196687
-3196688
-3196689
-3196690
-3196691
-3196692
-3196693
+scenario-id,scenario-text
+3102641,"Liver disease, chronic, fibrosis suspected, diagnosis and staging, initial imaging"
+3164890,"Polytrauma, blunt, hemodynamically unstable, initial imaging"
+3164891,"Polytrauma, blunt, hemodynamically stable, NOS, initial imaging"
+3196677,"Sepsis suspected, non specific symptoms, unknown origin, initial imaging"
+3196678,"Sepsis, non specific symptoms, unknown origin, initial imaging"
+3196679,"Sepsis suspected, cannot assess symptoms, initial imaging"
+3196680,"Sepsis, cannot assess symptoms, initial imaging"
+3196682,"Sepsis suspected, non specific symptoms, unknown origin, chest radiography normal, next imaging study"
+3196683,"Sepsis suspected, non specific symptoms, unknown origin, chest radiography equivocal, next imaging study"
+3196684,"Sepsis suspected, non specific symptoms, unknown origin, chest radiography nonspecific, next imaging study"
+3196685,"Sepsis, non specific symptoms, unknown origin, chest radiography normal, next imaging study"
+3196686,"Sepsis, non specific symptoms, unknown origin, chest radiography equivocal, next imaging study"
+3196687,"Sepsis, non specific symptoms, unknown origin, chest radiography nonspecific, next imaging study"
+3196688,"Sepsis suspected, cannot assess symptoms, chest radiography normal, next imaging study"
+3196689,"Sepsis suspected, cannot assess symptoms, chest radiography equivocal, next imaging study"
+3196690,"Sepsis suspected, cannot assess symptoms, chest radiography nonspecific, next imaging study"
+3196691,"Sepsis, cannot assess symptoms, chest radiography normal, next imaging study"
+3196692,"Sepsis, cannot assess symptoms, chest radiography equivocal, next imaging study"
+3196693,"Sepsis, cannot assess symptoms, chest radiography nonspecific, next imaging study"

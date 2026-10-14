@@ -54,12 +54,29 @@ def get_criteria_for_scenario(url):
 # main
  
 
-scenarios = pd.read_csv("data/acr_ac_scenarios.csv")
+scenarios = pd.read_csv("acr_ac_scenarios.csv")
 scenario_list = scenarios[scenarios['panel'] == 'Gastrointestinal']['scenario-url'].tolist()
 
 ac = pd.DataFrame(columns=["scenario-text", "scenario-id", "procedure", "adult-rrl", "peds-rrl", "appropriateness", "empty-1", "empty-2"], dtype="object")
 
-# Get both url and panel information
+# Note: To minimize load on the ACR website, this script was manually run multiple times
+#       with panel_to_load set to different panel types, until all were downloaded. 
+#       Original download dates are shown in /supplemental/download_history.text
+#
+# Panel types:
+#     'Breast',
+#     'Cardiac',
+#     'Gastrointestinal',
+#     'Gyn and OB',
+#     'Interventional Radiology',
+#     'Musculoskeletal',
+#     'Neurologic',
+#     'Pediatric',
+#     'Polytrauma',
+#     'Thoracic',
+#     'Urologic',
+#     'Vascular'
+
 panel_to_load = 'Gastrointestinal'
 scenario_data = scenarios[scenarios['panel'] == panel_to_load][['scenario-url', 'panel']].values.tolist()
 
@@ -80,5 +97,5 @@ for idx, (url, panel) in enumerate(scenario_data, 1):
         ac = pd.concat([ac, pd.DataFrame(new_ac_with_panel, columns=ac.columns)], ignore_index=True)
     time.sleep(10)  # Pause for 10 seconds between requests    
 ac = ac.drop(['empty-1', 'empty-2'], axis=1)
-ac.to_csv(panel_to_load+".csv")
+ac.to_csv("data/" + panel_to_load + ".csv")
 

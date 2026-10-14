@@ -1,174 +1,174 @@
-scenario-id
-3073701
-3074147
-3074160
-3074166
-3074171
-3074376
-3074378
-3079764
-3079770
-3082200
-3082202
-3097329
-3102571
-3102572
-3102573
-3106346
-3109052
-3109080
-3109094
-3109108
-3109192
-3128539
-3148586
-3149272
-3149273
-3149274
-3149341
-3149342
-3155923
-3163051
-3163053
-3163054
-3164899
-3164900
-3164902
-3164903
-3164904
-3164905
-3164906
-3164925
-3164926
-3165314
-3180661
-3180662
-3180663
-3180664
-3181230
-3181231
-3183762
-3183763
-3183764
-3183765
-3183766
-3183767
-3183768
-3183769
-3183771
-3183772
-3183773
-3183774
-3185407
-3185408
-3185409
-3185410
-3185423
-3185424
-3185425
-3185426
-3185427
-3185436
-3185440
-3191929
-3191930
-3191943
-3191944
-3191945
-3191946
-3191947
-3191948
-3193993
-3194014
-3194209
-3194262
-3194264
-3194266
-3194268
-3194270
-3194272
-3194842
-3194843
-3194844
-3194845
-3194846
-3194847
-3194848
-3194850
-3194851
-3194852
-3194853
-3194854
-3194855
-3194856
-3194857
-3194871
-3194872
-3194874
-3194875
-3194876
-3194877
-3194878
-3195418
-3195452
-3195495
-3195557
-3195570
-3195702
-3195718
-3195731
-3195942
-3195943
-3195944
-3195945
-3196091
-3196092
-3196094
-3196095
-3196732
-3197148
-3197150
-3197151
-3197155
-3197233
-3197235
-3197237
-3197264
-3197265
-3197266
-3197275
-3197276
-3197277
-3197278
-3197279
-3197280
-3197317
-3197318
-3197319
-3197320
-3197321
-3197322
-3197359
-3197360
-3197361
-3197362
-3197363
-3197364
-3197366
-3197367
-3197380
-3197381
-3197393
-3197394
-3197421
-3197422
-3197485
-3197486
-3197487
-3197488
-3197490
-3197491
-3197493
-3197494
-3197496
-3197600
+scenario-id,scenario-text
+3073701,Benign prostatic hyperplasia (BPH) suspected
+3074147,"Vaginal bleeding, first trimester, positive beta-HCG"
+3074160,"Vaginal bleeding, after first trimester, painless, initial imaging"
+3074166,"Adnexal mass suspected, no acute symptoms, premenopausal, initial imaging"
+3074171,"Adnexal mass, likely benign, no acute symptoms, premenopausal, follow-up imaging"
+3074376,"Pelvic pain, acute, positive beta-hCG, gynecological etiology suspected, initial imaging"
+3074378,"Pelvic pain, acute, positive beta-hCG, non-gynecological etiology suspected, initial imaging"
+3079764,"Hematospermia, transient/episodic, <40 years, no other signs/symptoms"
+3079770,"AAA, f/u after repair (open or endovasc)"
+3082200,"Adnexal mass, likely benign, no acute symptoms, postmenopausal, follow-up imaging"
+3082202,"Adnexal mass, no acute symptoms, premenopausal, initial pelvic US indeterminate, follow-up imaging"
+3097329,"Infertility, recurring pregnancy loss, initial imaging"
+3102571,"Hematospermia, persistent"
+3102572,"Hematospermia, >=40 years"
+3102573,"Hematospermia, w/ associated signs or symptoms of disease"
+3106346,"Thoracic aorta disease, post repair (TEVAR), follow up"
+3109052,"Primary bone tumor suspected, pelvis, initial imaging"
+3109080,"Primary bone tumor suspected, pelvis, incidental lesion on MR or CT, not clearly benign, next imaging study"
+3109094,"Primary bone tumor suspected, pelvis, benign on radiography, not osteoid osteoma, next imaging study"
+3109108,"Primary bone tumor suspected, pelvis, osteoid osteoma suspected on radiography or clinical exam"
+3109192,"Primary bone tumor suspected, pelvis, radiography negative or equivocal, next imaging study"
+3128539,"Pancreatic adenocarcinoma, post neoadjuvant tx, eval for resectability"
+3148586,"Vulvar pain, chronic, post-menopausal"
+3149272,"Fetal growth disturbance, low risk for fetal growth restriction"
+3149273,"Fetal growth disturbance, high risk for fetal growth restriction"
+3149274,"Fetal growth restriction, follow up"
+3149341,"Adnexal mass, no acute symptoms, postmenopausal, initial pelvic US indeterminate, follow-up imaging"
+3149342,"Adnexal mass, no acute symptoms, premenopausal, pelvic US suspicious for malignancy, next imaging study for characterization"
+3155923,Gestational trophoblastic disease (GTD) suspected
+3163051,Gestational trophoblastic neoplasia (GTN) suspected
+3163053,"Gestational trophoblastic disease (GTD), assess for complications"
+3163054,"Gestational trophoblastic neoplasia (GTN), assess for complications"
+3164899,"Placenta accreta spectrum disorder suspected, high risk, initial imaging"
+3164900,"Placenta accreta spectrum disorder, follow up imaging"
+3164902,"Pancreas cyst, <=2.5cm, incidental, initial evaluation"
+3164903,"Pancreas cyst, >2.5cm, incidental, no high risk features, initial evaluation"
+3164904,"Pancreas cyst, >2.5cm, incidental, high risk features, initial evaluation"
+3164905,"Pancreas duct dilation, >7mm, IPMN suspected, initial evaluation"
+3164906,"Pancreas cyst, follow-up imaging"
+3164925,"Infertility, evaluate ovulatory function and reserve, initial imaging"
+3164926,"Infertility, tubal occlusion suspected, initial imaging"
+3165314,"Primary bone tumor suspected, pelvis, indeterminate or aggressive on radiography, next imaging study"
+3180661,"Infertility, polycystic ovary syndrome suspected, initial imaging"
+3180662,"Infertility, polycystic ovary syndrome, initial imaging"
+3180663,"Infertility, endometriosis suspected, initial imaging"
+3180664,"Infertility, endometriosis, initial imaging"
+3181230,"Gravid cervix assessment, hx of preterm birth, initial imaging"
+3181231,"Gravid cervix assessment, preterm labor suspected, initial imaging"
+3183762,"Hematuria, microscopic, no risk factors, initial imaging"
+3183763,"Hematuria, microscopic, recent vigorous exercise, initial imaging"
+3183764,"Hematuria, microscopic, infection or viral illness, initial imaging"
+3183765,"Hematuria, current or recent menses, initial imaging"
+3183766,"Hematuria, microscopic, risk factors, no recent vigorous exercise, initial imaging"
+3183767,"Hematuria, microscopic, risk factors, no infection or viral illness, initial imaging"
+3183768,"Hematuria, microscopic, risk factors, no current or recent menses, initial imaging"
+3183769,"Hematuria, microscopic, risk factors, no renal parenchymal disease, initial imaging"
+3183771,"Gravid cervix assessment, nulliparous, initial imaging"
+3183772,"Gravid cervix assessment, no hx of preterm birth, initial imaging"
+3183773,"Gravid cervix assessment, labor induction, initial imaging"
+3183774,"Gravid cervix assessment, active term labor, initial imaging"
+3185407,"Postpartum hemorrhage, <= 24 hrs after cesarean delivery, initial Imaging"
+3185408,"Postpartum hemorrhage, <= 24 hrs after vaginal delivery, initial Imaging"
+3185409,"Postpartum hemorrhage, >24hrs to <= 6wks hrs after cesarean delivery, initial Imaging"
+3185410,"Postpartum hemorrhage, >24hrs to <= 6wks hrs after vaginal delivery, initial Imaging"
+3185423,"Nuchal translucency measurement, routine, 11-14 weeks gestation, single or twins, initial imaging"
+3185424,"Nuchal translucency measurement, increased, 11-14 weeks gestation, single gestation"
+3185425,"Nuchal translucency measurement, increased, 11-14 weeks gestation, dichorionic twins"
+3185426,"Nuchal translucency measurement, increased, 11-14 weeks gestation, monochorionic twins,"
+3185427,"Uterine bleeding, abnormal, initial imaging"
+3185436,"Endometrial cancer, pretreatment evaluation, low grade, assess lymph node and mets"
+3185440,"Vaginal bleeding, after first trimester, painful, initial imaging"
+3191929,"Uterine bleeding, abnormal, US inconclusive, follow-up imaging"
+3191930,"Uterine bleeding, abnormal, US performed, follow-up imaging for further characterization"
+3191943,"Vaginal bleeding, after first trimester, placenta previa suspected, initial imaging"
+3191944,"Vaginal bleeding, after first trimester, placenta previa, initial imaging"
+3191945,"Vaginal bleeding, after first trimester, low lying placenta suspected, initial imaging"
+3191946,"Vaginal bleeding, after first trimester, low lying placenta, initial imaging"
+3191947,"Vaginal bleeding, after first trimester, vasa previa suspected, initial imaging"
+3191948,"Vaginal bleeding, after first trimester, vasa previa, initial imaging"
+3193993,"Vulvar cancer, treated, recurrence suspected"
+3194014,"Aortic disease, congenital, initial imaging"
+3194209,"Vaginal cancer, no recurrence suspected, post treatment evaluation, initial imaging"
+3194262,"Adrenal mass, indeterminate, <1cm on imaging, no benign features, no hx of malignancy, follow up imaging"
+3194264,"Adrenal mass, indeterminate, 1-2cm on imaging, no benign features, no hx of malignancy, follow up imaging in 12 mos"
+3194266,"Adrenal mass, indeterminate, >2cm and <4cm on imaging, no benign features, no hx of malignancy, adrenal specific follow up imaging"
+3194268,"Adrenal mass, indeterminate, >=4cm on imaging, no benign features, no hx of malignancy, adrenal specific follow up imaging"
+3194270,"Adrenal mass, <4cm on imaging, no benign features, hx of malignancy, adrenal specific follow up imaging"
+3194272,"Adrenal mass, >=4cm on imaging, no benign features, hx of malignancy, adrenal specific follow-up imaging"
+3194842,"Urinary dysfunction, involuntary leakage of urine, initial imaging"
+3194843,"Urinary dysfunction, frequent urination, initial imaging"
+3194844,"Urinary dysfunction, urgency, initial imaging"
+3194845,"Urinary dysfunction, straining to void, initial imaging"
+3194846,"Urinary dysfunction, incomplete voiding, initial imaging"
+3194847,"Urinary dysfunction, splinting, initial imaging"
+3194848,"Urinary dysfunction, digital maneuvers to void, initial imaging"
+3194850,"Defecatory dysfunction, incontinence of stool, initial imaging"
+3194851,"Defecatory dysfunction, incontinence of liquid, initial imaging"
+3194852,"Defecatory dysfunction, incontinence of gas, initial imaging"
+3194853,"Defecatory dysfunction, straining during defecation, initial imaging"
+3194854,"Defecatory dysfunction, difficulty initiating defecation, initial imaging"
+3194855,"Defecatory dysfunction, incomplete evacuation, initial imaging"
+3194856,"Defecatory dysfunction, splinting, initial imaging"
+3194857,"Defecatory dysfunction, digital maneuvers to defecate, initial imaging"
+3194871,"Scrotum abnormality, palpable, newly diagnosed, hx of infection, initial imaging"
+3194872,"Scrotum abnormality, palpable, newly diagnosed, hx of trauma, initial imaging"
+3194874,"Scrotum abnormality, palpable, newly diagnosed, no hx of infection, initial imaging"
+3194875,"Scrotum abnormality, palpable, newly diagnosed, no hx of trauma, initial imaging"
+3194876,"Renal cell cancer carcinoma, localized, post partial nephrectomy, follow up imaging"
+3194877,"Renal cell cancer carcinoma, localized, post radical nephrectomy, follow up imaging"
+3194878,"Renal cell cancer carcinoma, localized, post ablation, follow up imaging"
+3195418,"Breast reconstruction, surgical planning, deep inferior epigastric arteries evaluation, initial imaging"
+3195452,"Osteomyelitis suspected, pelvis, initial imaging"
+3195495,"Soft tissue infection suspected, pelvis, radiography findings suggest joint effusion, next imaging study"
+3195557,"Osteomyelitis suspected, pelvis, radiography findings suggest osteomyelitis, next imaging study"
+3195570,"Osteomyelitis suspected, pelvis, radiography normal, next imaging study"
+3195702,"Osteonecrosis suspected, pelvis, initial imaging"
+3195718,"Osteonecrosis suspected, pelvis, radiography normal, next imaging study"
+3195731,"Osteonecrosis suspected, pelvis, suspicious findings on radiography, next imaging study"
+3195942,"Prostate cancer, recurrent disease suspected, post radical prostatectomy, follow-up imaging"
+3195943,"Prostate cancer, residual disease suspected, post radical prostatectomy, follow-up imaging"
+3195944,"Prostate cancer, residual disease suspected, post nonsurgical local and pelvic treatment, follow-up imaging"
+3195945,"Prostate cancer, recurrent disease suspected, post nonsurgical local and pelvic treatment, follow-up imaging"
+3196091,"Thoracoabdominal aortic dissection, post TEVAR, follow-up imaging"
+3196092,"Thoracoabdominal aortic aneurysm, post TEVAR, follow-up imaging"
+3196094,"Thoracoabdominal aortic dissection, post open repair, follow up imaging"
+3196095,"Thoracoabdominal aortic aneurysm, post open repair, follow-up imaging"
+3196732,"Cervical cancer, chemoradiation, posttreatment evaluation"
+3197148,"Adnexal mass suspected, no acute symptoms, postmenopausal, initial imaging"
+3197150,"Adnexal mass, no acute symptoms, premenopausal, initial pelvic US indeterminate, next imaging study for characterization"
+3197151,"Adnexal mass, no acute symptoms, postmenopausal, initial pelvic US indeterminate, next imaging study for characterization"
+3197155,"Adnexal mass, no acute symptoms, postmenopausal, pelvic US suspicious for malignancy, next imaging study for characterization"
+3197233,"Stress fracture suspected, pelvis, initial imaging"
+3197235,"Stress fracture suspected, sacrum, initial imaging"
+3197237,"Stress fracture suspected, pelvis, radiography negative, next imaging study"
+3197264,"Stress fracture suspected, pelvis, radiography indeterminate, next imaging study"
+3197265,"Stress fracture suspected, sacrum, radiography indeterminate, next imaging study"
+3197266,"Stress fracture suspected, sacrum, radiography negative, next imaging study"
+3197275,"Stress fracture suspected, pelvis, immediate need-to-know, radiography indeterminate, next imaging study"
+3197276,"Stress fracture suspected, pelvis, immediate need-to-know, radiography negative, next imaging study"
+3197277,"Stress fracture suspected, pelvis, fracture completion risk, radiography indeterminate, next imaging study"
+3197278,"Stress fracture suspected, pelvis, fracture completion risk, radiography negative, next imaging study"
+3197279,"Stress fracture suspected, pelvis, osteoporosis or bisphosphonate therapy, radiography indeterminate, next imaging study"
+3197280,"Stress fracture suspected, pelvis, osteoporosis or bisphosphonate therapy, radiography negative, next imaging study"
+3197317,"Stress fracture suspected, hip, immediate need-to-know, radiography indeterminate, next imaging study"
+3197318,"Stress fracture suspected, hip, immediate need-to-know, radiography negative, next imaging study"
+3197319,"Stress fracture suspected, hip, fracture completion risk, radiography indeterminate, next imaging study"
+3197320,"Stress fracture suspected, hip, fracture completion risk, radiography negative, next imaging study"
+3197321,"Stress fracture suspected, hip, osteoporosis or bisphosphonate therapy, radiography indeterminate, next imaging study"
+3197322,"Stress fracture suspected, hip, osteoporosis or bisphosphonate therapy, radiography negative, next imaging study"
+3197359,"Stress fracture suspected, sacrum, immediate need-to-know, radiography indeterminate, next imaging study"
+3197360,"Stress fracture suspected, sacrum, immediate need-to-know, radiography negative, next imaging study"
+3197361,"Stress fracture suspected, sacrum, fracture completion risk, radiography indeterminate, next imaging study"
+3197362,"Stress fracture suspected, sacrum, fracture completion risk, radiography negative, next imaging study"
+3197363,"Stress fracture suspected, sacrum, osteoporosis or bisphosphonate therapy, radiography indeterminate, next imaging study"
+3197364,"Stress fracture suspected, sacrum, osteoporosis or bisphosphonate therapy, radiography negative, next imaging study"
+3197366,"Subchondral stress fracture suspected, pelvis, radiography indeterminate, next imaging study"
+3197367,"Subchondral stress fracture suspected, pelvis, radiography negative, next imaging study"
+3197380,"Subchondral stress fracture suspected, hip, radiography indeterminate, next imaging study"
+3197381,"Subchondral stress fracture suspected, hip, radiography negative, next imaging study"
+3197393,"Pelvis stress fracture on radiography, next imaging study, determining extent"
+3197394,"Pelvis stress fracture on radiography, next imaging study, associated complication"
+3197421,"Sacrum stress fracture on radiography, next imaging study, determining extent"
+3197422,"Sacrum stress fracture on radiography, next imaging study, associated complication"
+3197485,"Multiple gestations suspected, dichorionic, first trimester, initial imaging"
+3197486,"Multiple gestations suspected, monochorionic, first trimester, initial imaging"
+3197487,"Multiple gestations, dichorionic, first trimester, initial imaging"
+3197488,"Multiple gestations, monochorionic, first trimester, initial imaging"
+3197490,"Multiple gestations, dichorionic, first trimester US performed, next imaging study"
+3197491,"Multiple gestations, monochorionic, first trimester US performed, next imaging study"
+3197493,"Multiple gestations, multichorionic higher order multiples, second trimester anatomy exam, follow-up imaging"
+3197494,"Multiple gestations, dichorionic twins, second trimester anatomy exam, follow-up imaging"
+3197496,"Multiple gestations, monochorionic twins, second trimester anatomy exam, follow-up imaging"
+3197600,"Scrotal pain, acute, nontraumatic, no antecedent mass, initial imaging"
