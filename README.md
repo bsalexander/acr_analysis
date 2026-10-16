@@ -12,6 +12,16 @@ Authors:
 
 All authors are affiliated with Duke University Health.
 
+## License
+
+The analysis code and Jupyter notebook code in this repository are licensed under the MIT License. See [LICENSE](LICENSE).
+
+Original supporting datasets, supplemental tables, and documentation are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, unless otherwise noted.
+
+These licenses apply only to materials for which the authors hold the necessary rights. Third-party materials and restricted datasets are excluded.
+
+Please cite the associated publication and archived repository DOI when using these materials.
+
 ## Steps for reproduction
 
 This analysis was conducted on GitHub Codespaces. GitHub Copilot was used for coding assistance in developing Python/Jupyter notebooks for statistical analysis. All code and results were reviewed by the authors who retain full responsibility for their accuracy and integrity.

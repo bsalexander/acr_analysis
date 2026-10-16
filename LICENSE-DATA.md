@@ -1,0 +1,1 @@
+Descriptive analysis of the ACR appropriateness criteria for abdominal/pelvic emergency department presentations  © 2026 by Benjamin S. Alexander is licensed under Creative Commons Attribution 4.0 International. To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
