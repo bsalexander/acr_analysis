@@ -51,6 +51,6 @@ python -m ipykernel install --user \
   - [category_grid_initial.png](/output/category_grid_initial.png) - 3x3 grid of study counts by appropriateness ranking, when limited to studies designated as "initial imaging".
   - [modality_percentages.png](/output/modality_percentages.png) - frequency graph of modalities alternative to CT.
   - [modality_percentages_initial.png](/output/modality_percentages_initial.png) - frequency graph of modalities alternative to CT, when limited to studies designated as "initial imaging".
-  - [filtered_scenarios.xlsx](/output/filtered_scenarios.xlsx) - Excel file containing clinical scenarios in each of the 9 categories of appropriateness by CT or alternative modality.
-  - [initial_imaging_only_scenarios.xlsx](/output/initial_imaging_only_scenarios.xlsx) - Excel file containing clinical scenarios in each of the 9 categories of appropriateness by CT or alternative modality, when limited to "initial imaging".
+  - [filtered_scenarios.xlsx](/output/filtered_scenarios.xlsx) - Excel file containing clinical scenarios in each of the 9 categories of appropriateness by CT or alternative modality. (Note: this should be downloaded locally to open in Excel)
+  - [initial_imaging_only_scenarios.xlsx](/output/initial_imaging_only_scenarios.xlsx) - Excel file containing clinical scenarios in each of the 9 categories of appropriateness by CT or alternative modality, when limited to "initial imaging". (Note: this should be downloaded locally to open in Excel)
   
