@@ -16,11 +16,13 @@ All authors are affiliated with Duke University Health.
 
 This analysis was conducted on GitHub Codespaces. GitHub Copilot was used for coding assistance in developing Python/Jupyter notebooks for statistical analysis. All code and results were reviewed by the authors who retain full responsibility for their accuracy and integrity.
 
+The results of the final analysis notebook are visible in this repository. Steps for recreation are listed below for those interested in exploring or modifying the code, but are not necessary to review code and results.
+
 ### Environment
 
 Installed packages are documented in [requirements.txt](requirements.txt). Final analysis was conducted in [Python 3.12.1](.python-version).
 
-You may create a virtual environment, then install exact dependencies with:
+If desired, you may create a virtual environment, then install exact dependencies with:
 ```
 python -m pip install -r requirements.txt
 
