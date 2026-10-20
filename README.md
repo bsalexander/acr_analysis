@@ -66,4 +66,6 @@ python -m ipykernel install --user \
   - [filtered_scenarios.xlsx](/output/filtered_scenarios.xlsx) - Excel file containing clinical scenarios in each of the 9 categories of appropriateness by CT or alternative modality. (Note: this should be downloaded locally to open in Excel)
   - [initial_imaging_only_scenarios.xlsx](/output/initial_imaging_only_scenarios.xlsx) - Excel file containing clinical scenarios in each of the 9 categories of appropriateness by CT or alternative modality, when limited to "initial imaging". (Note: this should be downloaded locally to open in Excel)
 
+6. To generate the static table pages, run the notebook through its final **Publish all tables to HTML** cell. It writes an index to `docs/index.html` and one HTML file per table to `docs/tables/`. To host them with GitHub Pages, set the repository's Pages source to the `main` branch and `/docs` folder; the published site opens at the index page.
+
   
