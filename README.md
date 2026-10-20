@@ -65,4 +65,5 @@ python -m ipykernel install --user \
   - [modality_percentages_initial.png](/output/modality_percentages_initial.png) - frequency graph of modalities alternative to CT, when limited to studies designated as "initial imaging".
   - [filtered_scenarios.xlsx](/output/filtered_scenarios.xlsx) - Excel file containing clinical scenarios in each of the 9 categories of appropriateness by CT or alternative modality. (Note: this should be downloaded locally to open in Excel)
   - [initial_imaging_only_scenarios.xlsx](/output/initial_imaging_only_scenarios.xlsx) - Excel file containing clinical scenarios in each of the 9 categories of appropriateness by CT or alternative modality, when limited to "initial imaging". (Note: this should be downloaded locally to open in Excel)
+
   

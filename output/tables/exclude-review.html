@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exclude review records</title>
+    
+<style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #222; background: #fff; }
+    body { margin: 0 auto; max-width: 1200px; padding: 2rem; }
+    h1 { margin-bottom: .4rem; }
+    .description, .count { color: #555; }
+    .category-label { display: inline-block; padding: .25rem .6rem; border: 1px solid #aaa; border-radius: .3rem; color: #222; font-size: .85rem; }
+    .table-wrap { overflow-x: auto; margin-top: 1.5rem; }
+    table.data-table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+    .data-table th, .data-table td { border: 1px solid #ddd; padding: .5rem; text-align: left; vertical-align: top; }
+    .data-table th { background: #f2f4f7; position: sticky; top: 0; }
+    .data-table tr:nth-child(even) { background: #fafafa; }
+    a { color: #0759a5; }
+    ul { line-height: 1.8; }
+</style>
+
+</head>
+<body>
+    <p><a href="../index.html">Back to table index</a></p>
+    <h1>Exclude review records</h1>
+    
+    <p class="description">Scenarios manually removed after initial criteria filtering.</p>
+    <p class="count">173 records</p>
+    <div class="table-wrap"><table class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scenario-id</th>
+      <th>scenario-text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3073701</td>
+      <td>Benign prostatic hyperplasia (BPH) suspected</td>
+    </tr>
+    <tr>
+      <td>3074147</td>
+      <td>Vaginal bleeding, first trimester, positive beta-HCG</td>
+    </tr>
+    <tr>
+      <td>3074160</td>
+      <td>Vaginal bleeding, after first trimester, painless, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3074166</td>
+      <td>Adnexal mass suspected, no acute symptoms, premenopausal, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3074171</td>
+      <td>Adnexal mass, likely benign, no acute symptoms, premenopausal, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3074376</td>
+      <td>Pelvic pain, acute, positive beta-hCG, gynecological etiology suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3074378</td>
+      <td>Pelvic pain, acute, positive beta-hCG, non-gynecological etiology suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3079764</td>
+      <td>Hematospermia, transient/episodic, &lt;40 years, no other signs/symptoms</td>
+    </tr>
+    <tr>
+      <td>3079770</td>
+      <td>AAA, f/u after repair (open or endovasc)</td>
+    </tr>
+    <tr>
+      <td>3082200</td>
+      <td>Adnexal mass, likely benign, no acute symptoms, postmenopausal, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3082202</td>
+      <td>Adnexal mass, no acute symptoms, premenopausal, initial pelvic US indeterminate, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3097329</td>
+      <td>Infertility, recurring pregnancy loss, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3102571</td>
+      <td>Hematospermia, persistent</td>
+    </tr>
+    <tr>
+      <td>3102572</td>
+      <td>Hematospermia, &gt;=40 years</td>
+    </tr>
+    <tr>
+      <td>3102573</td>
+      <td>Hematospermia, w/ associated signs or symptoms of disease</td>
+    </tr>
+    <tr>
+      <td>3106346</td>
+      <td>Thoracic aorta disease, post repair (TEVAR), follow up</td>
+    </tr>
+    <tr>
+      <td>3109052</td>
+      <td>Primary bone tumor suspected, pelvis, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3109080</td>
+      <td>Primary bone tumor suspected, pelvis, incidental lesion on MR or CT, not clearly benign, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3109094</td>
+      <td>Primary bone tumor suspected, pelvis, benign on radiography, not osteoid osteoma, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3109108</td>
+      <td>Primary bone tumor suspected, pelvis, osteoid osteoma suspected on radiography or clinical exam</td>
+    </tr>
+    <tr>
+      <td>3109192</td>
+      <td>Primary bone tumor suspected, pelvis, radiography negative or equivocal, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3128539</td>
+      <td>Pancreatic adenocarcinoma, post neoadjuvant tx, eval for resectability</td>
+    </tr>
+    <tr>
+      <td>3148586</td>
+      <td>Vulvar pain, chronic, post-menopausal</td>
+    </tr>
+    <tr>
+      <td>3149272</td>
+      <td>Fetal growth disturbance, low risk for fetal growth restriction</td>
+    </tr>
+    <tr>
+      <td>3149273</td>
+      <td>Fetal growth disturbance, high risk for fetal growth restriction</td>
+    </tr>
+    <tr>
+      <td>3149274</td>
+      <td>Fetal growth restriction, follow up</td>
+    </tr>
+    <tr>
+      <td>3149341</td>
+      <td>Adnexal mass, no acute symptoms, postmenopausal, initial pelvic US indeterminate, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3149342</td>
+      <td>Adnexal mass, no acute symptoms, premenopausal, pelvic US suspicious for malignancy, next imaging study for characterization</td>
+    </tr>
+    <tr>
+      <td>3155923</td>
+      <td>Gestational trophoblastic disease (GTD) suspected</td>
+    </tr>
+    <tr>
+      <td>3163051</td>
+      <td>Gestational trophoblastic neoplasia (GTN) suspected</td>
+    </tr>
+    <tr>
+      <td>3163053</td>
+      <td>Gestational trophoblastic disease (GTD), assess for complications</td>
+    </tr>
+    <tr>
+      <td>3163054</td>
+      <td>Gestational trophoblastic neoplasia (GTN), assess for complications</td>
+    </tr>
+    <tr>
+      <td>3164899</td>
+      <td>Placenta accreta spectrum disorder suspected, high risk, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3164900</td>
+      <td>Placenta accreta spectrum disorder, follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3164902</td>
+      <td>Pancreas cyst, &lt;=2.5cm, incidental, initial evaluation</td>
+    </tr>
+    <tr>
+      <td>3164903</td>
+      <td>Pancreas cyst, &gt;2.5cm, incidental, no high risk features, initial evaluation</td>
+    </tr>
+    <tr>
+      <td>3164904</td>
+      <td>Pancreas cyst, &gt;2.5cm, incidental, high risk features, initial evaluation</td>
+    </tr>
+    <tr>
+      <td>3164905</td>
+      <td>Pancreas duct dilation, &gt;7mm, IPMN suspected, initial evaluation</td>
+    </tr>
+    <tr>
+      <td>3164906</td>
+      <td>Pancreas cyst, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3164925</td>
+      <td>Infertility, evaluate ovulatory function and reserve, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3164926</td>
+      <td>Infertility, tubal occlusion suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3165314</td>
+      <td>Primary bone tumor suspected, pelvis, indeterminate or aggressive on radiography, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3180661</td>
+      <td>Infertility, polycystic ovary syndrome suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3180662</td>
+      <td>Infertility, polycystic ovary syndrome, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3180663</td>
+      <td>Infertility, endometriosis suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3180664</td>
+      <td>Infertility, endometriosis, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3181230</td>
+      <td>Gravid cervix assessment, hx of preterm birth, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3181231</td>
+      <td>Gravid cervix assessment, preterm labor suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183762</td>
+      <td>Hematuria, microscopic, no risk factors, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183763</td>
+      <td>Hematuria, microscopic, recent vigorous exercise, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183764</td>
+      <td>Hematuria, microscopic, infection or viral illness, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183765</td>
+      <td>Hematuria, current or recent menses, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183766</td>
+      <td>Hematuria, microscopic, risk factors, no recent vigorous exercise, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183767</td>
+      <td>Hematuria, microscopic, risk factors, no infection or viral illness, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183768</td>
+      <td>Hematuria, microscopic, risk factors, no current or recent menses, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183769</td>
+      <td>Hematuria, microscopic, risk factors, no renal parenchymal disease, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183771</td>
+      <td>Gravid cervix assessment, nulliparous, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183772</td>
+      <td>Gravid cervix assessment, no hx of preterm birth, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183773</td>
+      <td>Gravid cervix assessment, labor induction, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3183774</td>
+      <td>Gravid cervix assessment, active term labor, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3185407</td>
+      <td>Postpartum hemorrhage, &lt;= 24 hrs after cesarean delivery, initial Imaging</td>
+    </tr>
+    <tr>
+      <td>3185408</td>
+      <td>Postpartum hemorrhage, &lt;= 24 hrs after vaginal delivery, initial Imaging</td>
+    </tr>
+    <tr>
+      <td>3185409</td>
+      <td>Postpartum hemorrhage, &gt;24hrs to &lt;= 6wks hrs after cesarean delivery, initial Imaging</td>
+    </tr>
+    <tr>
+      <td>3185410</td>
+      <td>Postpartum hemorrhage, &gt;24hrs to &lt;= 6wks hrs after vaginal delivery, initial Imaging</td>
+    </tr>
+    <tr>
+      <td>3185423</td>
+      <td>Nuchal translucency measurement, routine, 11-14 weeks gestation, single or twins, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3185424</td>
+      <td>Nuchal translucency measurement, increased, 11-14 weeks gestation, single gestation</td>
+    </tr>
+    <tr>
+      <td>3185425</td>
+      <td>Nuchal translucency measurement, increased, 11-14 weeks gestation, dichorionic twins</td>
+    </tr>
+    <tr>
+      <td>3185426</td>
+      <td>Nuchal translucency measurement, increased, 11-14 weeks gestation, monochorionic twins,</td>
+    </tr>
+    <tr>
+      <td>3185427</td>
+      <td>Uterine bleeding, abnormal, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3185436</td>
+      <td>Endometrial cancer, pretreatment evaluation, low grade, assess lymph node and mets</td>
+    </tr>
+    <tr>
+      <td>3185440</td>
+      <td>Vaginal bleeding, after first trimester, painful, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3191929</td>
+      <td>Uterine bleeding, abnormal, US inconclusive, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3191930</td>
+      <td>Uterine bleeding, abnormal, US performed, follow-up imaging for further characterization</td>
+    </tr>
+    <tr>
+      <td>3191943</td>
+      <td>Vaginal bleeding, after first trimester, placenta previa suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3191944</td>
+      <td>Vaginal bleeding, after first trimester, placenta previa, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3191945</td>
+      <td>Vaginal bleeding, after first trimester, low lying placenta suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3191946</td>
+      <td>Vaginal bleeding, after first trimester, low lying placenta, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3191947</td>
+      <td>Vaginal bleeding, after first trimester, vasa previa suspected, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3191948</td>
+      <td>Vaginal bleeding, after first trimester, vasa previa, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3193993</td>
+      <td>Vulvar cancer, treated, recurrence suspected</td>
+    </tr>
+    <tr>
+      <td>3194014</td>
+      <td>Aortic disease, congenital, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194209</td>
+      <td>Vaginal cancer, no recurrence suspected, post treatment evaluation, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194262</td>
+      <td>Adrenal mass, indeterminate, &lt;1cm on imaging, no benign features, no hx of malignancy, follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3194264</td>
+      <td>Adrenal mass, indeterminate, 1-2cm on imaging, no benign features, no hx of malignancy, follow up imaging in 12 mos</td>
+    </tr>
+    <tr>
+      <td>3194266</td>
+      <td>Adrenal mass, indeterminate, &gt;2cm and &lt;4cm on imaging, no benign features, no hx of malignancy, adrenal specific follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3194268</td>
+      <td>Adrenal mass, indeterminate, &gt;=4cm on imaging, no benign features, no hx of malignancy, adrenal specific follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3194270</td>
+      <td>Adrenal mass, &lt;4cm on imaging, no benign features, hx of malignancy, adrenal specific follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3194272</td>
+      <td>Adrenal mass, &gt;=4cm on imaging, no benign features, hx of malignancy, adrenal specific follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3194842</td>
+      <td>Urinary dysfunction, involuntary leakage of urine, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194843</td>
+      <td>Urinary dysfunction, frequent urination, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194844</td>
+      <td>Urinary dysfunction, urgency, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194845</td>
+      <td>Urinary dysfunction, straining to void, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194846</td>
+      <td>Urinary dysfunction, incomplete voiding, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194847</td>
+      <td>Urinary dysfunction, splinting, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194848</td>
+      <td>Urinary dysfunction, digital maneuvers to void, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194850</td>
+      <td>Defecatory dysfunction, incontinence of stool, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194851</td>
+      <td>Defecatory dysfunction, incontinence of liquid, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194852</td>
+      <td>Defecatory dysfunction, incontinence of gas, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194853</td>
+      <td>Defecatory dysfunction, straining during defecation, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194854</td>
+      <td>Defecatory dysfunction, difficulty initiating defecation, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194855</td>
+      <td>Defecatory dysfunction, incomplete evacuation, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194856</td>
+      <td>Defecatory dysfunction, splinting, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194857</td>
+      <td>Defecatory dysfunction, digital maneuvers to defecate, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194871</td>
+      <td>Scrotum abnormality, palpable, newly diagnosed, hx of infection, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194872</td>
+      <td>Scrotum abnormality, palpable, newly diagnosed, hx of trauma, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194874</td>
+      <td>Scrotum abnormality, palpable, newly diagnosed, no hx of infection, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194875</td>
+      <td>Scrotum abnormality, palpable, newly diagnosed, no hx of trauma, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3194876</td>
+      <td>Renal cell cancer carcinoma, localized, post partial nephrectomy, follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3194877</td>
+      <td>Renal cell cancer carcinoma, localized, post radical nephrectomy, follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3194878</td>
+      <td>Renal cell cancer carcinoma, localized, post ablation, follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3195418</td>
+      <td>Breast reconstruction, surgical planning, deep inferior epigastric arteries evaluation, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3195452</td>
+      <td>Osteomyelitis suspected, pelvis, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3195495</td>
+      <td>Soft tissue infection suspected, pelvis, radiography findings suggest joint effusion, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3195557</td>
+      <td>Osteomyelitis suspected, pelvis, radiography findings suggest osteomyelitis, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3195570</td>
+      <td>Osteomyelitis suspected, pelvis, radiography normal, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3195702</td>
+      <td>Osteonecrosis suspected, pelvis, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3195718</td>
+      <td>Osteonecrosis suspected, pelvis, radiography normal, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3195731</td>
+      <td>Osteonecrosis suspected, pelvis, suspicious findings on radiography, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3195942</td>
+      <td>Prostate cancer, recurrent disease suspected, post radical prostatectomy, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3195943</td>
+      <td>Prostate cancer, residual disease suspected, post radical prostatectomy, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3195944</td>
+      <td>Prostate cancer, residual disease suspected, post nonsurgical local and pelvic treatment, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3195945</td>
+      <td>Prostate cancer, recurrent disease suspected, post nonsurgical local and pelvic treatment, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3196091</td>
+      <td>Thoracoabdominal aortic dissection, post TEVAR, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3196092</td>
+      <td>Thoracoabdominal aortic aneurysm, post TEVAR, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3196094</td>
+      <td>Thoracoabdominal aortic dissection, post open repair, follow up imaging</td>
+    </tr>
+    <tr>
+      <td>3196095</td>
+      <td>Thoracoabdominal aortic aneurysm, post open repair, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3196732</td>
+      <td>Cervical cancer, chemoradiation, posttreatment evaluation</td>
+    </tr>
+    <tr>
+      <td>3197148</td>
+      <td>Adnexal mass suspected, no acute symptoms, postmenopausal, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3197150</td>
+      <td>Adnexal mass, no acute symptoms, premenopausal, initial pelvic US indeterminate, next imaging study for characterization</td>
+    </tr>
+    <tr>
+      <td>3197151</td>
+      <td>Adnexal mass, no acute symptoms, postmenopausal, initial pelvic US indeterminate, next imaging study for characterization</td>
+    </tr>
+    <tr>
+      <td>3197155</td>
+      <td>Adnexal mass, no acute symptoms, postmenopausal, pelvic US suspicious for malignancy, next imaging study for characterization</td>
+    </tr>
+    <tr>
+      <td>3197233</td>
+      <td>Stress fracture suspected, pelvis, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3197235</td>
+      <td>Stress fracture suspected, sacrum, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3197237</td>
+      <td>Stress fracture suspected, pelvis, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197264</td>
+      <td>Stress fracture suspected, pelvis, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197265</td>
+      <td>Stress fracture suspected, sacrum, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197266</td>
+      <td>Stress fracture suspected, sacrum, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197275</td>
+      <td>Stress fracture suspected, pelvis, immediate need-to-know, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197276</td>
+      <td>Stress fracture suspected, pelvis, immediate need-to-know, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197277</td>
+      <td>Stress fracture suspected, pelvis, fracture completion risk, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197278</td>
+      <td>Stress fracture suspected, pelvis, fracture completion risk, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197279</td>
+      <td>Stress fracture suspected, pelvis, osteoporosis or bisphosphonate therapy, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197280</td>
+      <td>Stress fracture suspected, pelvis, osteoporosis or bisphosphonate therapy, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197317</td>
+      <td>Stress fracture suspected, hip, immediate need-to-know, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197318</td>
+      <td>Stress fracture suspected, hip, immediate need-to-know, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197319</td>
+      <td>Stress fracture suspected, hip, fracture completion risk, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197320</td>
+      <td>Stress fracture suspected, hip, fracture completion risk, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197321</td>
+      <td>Stress fracture suspected, hip, osteoporosis or bisphosphonate therapy, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197322</td>
+      <td>Stress fracture suspected, hip, osteoporosis or bisphosphonate therapy, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197359</td>
+      <td>Stress fracture suspected, sacrum, immediate need-to-know, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197360</td>
+      <td>Stress fracture suspected, sacrum, immediate need-to-know, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197361</td>
+      <td>Stress fracture suspected, sacrum, fracture completion risk, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197362</td>
+      <td>Stress fracture suspected, sacrum, fracture completion risk, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197363</td>
+      <td>Stress fracture suspected, sacrum, osteoporosis or bisphosphonate therapy, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197364</td>
+      <td>Stress fracture suspected, sacrum, osteoporosis or bisphosphonate therapy, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197366</td>
+      <td>Subchondral stress fracture suspected, pelvis, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197367</td>
+      <td>Subchondral stress fracture suspected, pelvis, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197380</td>
+      <td>Subchondral stress fracture suspected, hip, radiography indeterminate, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197381</td>
+      <td>Subchondral stress fracture suspected, hip, radiography negative, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197393</td>
+      <td>Pelvis stress fracture on radiography, next imaging study, determining extent</td>
+    </tr>
+    <tr>
+      <td>3197394</td>
+      <td>Pelvis stress fracture on radiography, next imaging study, associated complication</td>
+    </tr>
+    <tr>
+      <td>3197421</td>
+      <td>Sacrum stress fracture on radiography, next imaging study, determining extent</td>
+    </tr>
+    <tr>
+      <td>3197422</td>
+      <td>Sacrum stress fracture on radiography, next imaging study, associated complication</td>
+    </tr>
+    <tr>
+      <td>3197485</td>
+      <td>Multiple gestations suspected, dichorionic, first trimester, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3197486</td>
+      <td>Multiple gestations suspected, monochorionic, first trimester, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3197487</td>
+      <td>Multiple gestations, dichorionic, first trimester, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3197488</td>
+      <td>Multiple gestations, monochorionic, first trimester, initial imaging</td>
+    </tr>
+    <tr>
+      <td>3197490</td>
+      <td>Multiple gestations, dichorionic, first trimester US performed, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197491</td>
+      <td>Multiple gestations, monochorionic, first trimester US performed, next imaging study</td>
+    </tr>
+    <tr>
+      <td>3197493</td>
+      <td>Multiple gestations, multichorionic higher order multiples, second trimester anatomy exam, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3197494</td>
+      <td>Multiple gestations, dichorionic twins, second trimester anatomy exam, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3197496</td>
+      <td>Multiple gestations, monochorionic twins, second trimester anatomy exam, follow-up imaging</td>
+    </tr>
+    <tr>
+      <td>3197600</td>
+      <td>Scrotal pain, acute, nontraumatic, no antecedent mass, initial imaging</td>
+    </tr>
+  </tbody>
+</table></div>
+</body>
+</html>
