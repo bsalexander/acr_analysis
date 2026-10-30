@@ -30,3 +30,4 @@ if os.path.exists("data/combined.csv"):
 
 # Write combined dataframe to CSV
 combined_df.to_csv("data/combined.csv", index=False)
+ 

@@ -9,6 +9,7 @@ Authors:
 - Benjamin Alexander, MD
 - Jennifer Evans, MD
 - Kendrick Kennedy, MD
+- Eddie Rego, MPH
 
 All authors are affiliated with Duke University Health.
 

@@ -98,4 +98,3 @@ for idx, (url, panel) in enumerate(scenario_data, 1):
     time.sleep(10)  # Pause for 10 seconds between requests    
 ac = ac.drop(['empty-1', 'empty-2'], axis=1)
 ac.to_csv("data/" + panel_to_load + ".csv")
-
